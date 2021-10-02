@@ -1,0 +1,871 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+.container-2 {
+    width: 75%;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.container-3 {
+    width: 90%;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.img-container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.d-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1rem;
+    grid-template-rows: auto;
+    margin: 3rem 15px;
+}
+
+.products {
+    background-color: #fff;
+    padding: 10px 8px;
+    border-radius: 16px;
+}
+
+.product-left {
+    margin-left: 20px;
+}
+
+.product-left h3 {
+    font-size: 18px;
+    font-weight: 600;
+}
+.product-left span {
+    font-size: 17px;
+    font-weight: 400;
+}
+.product-left p {
+   margin-bottom: 0px;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(7, 230, 100, 0.8);
+    padding: 14px;
+    border-radius: 5px;
+}
+
+.text-gray {
+    color: rgb(191, 187, 187);
+}
+
+.form-control:focus {
+    box-shadow: inset 0 -1px 0 #ddd;
+}
+
+.header {
+    /* background: black; */
+    padding: 15px 0px;
+    overflow: hidden;
+    background-color: #fff;
+    position: fixed;
+    /* Set the navbar to fixed position */
+    top: 0;
+    /* Position the navbar at the top of the page */
+    width: 100%;
+    z-index: 999999999;
+}
+
+.checkout__next__btn {
+    border-radius: 10px;
+    padding: 10px 60px;
+    color: #fff;
+    background: #0fce48;
+    outline: none;
+    display: block;
+    border: 1px solid #0fce48;
+    float: right;
+}
+
+.checkout__next__btn__center {
+    border-radius: 10px;
+    padding: 10px 30px;
+    color: #fff;
+    background: #0fce48;
+    outline: none;
+    border: 1px solid #0fce48;
+    text-align: center;
+}
+
+.mt-80 {
+    margin-top: 8rem;
+}
+
+li {
+    list-style-type: none;
+    list-style: none;
+}
+
+li a {
+    text-decoration: none;
+    text-align: center;
+    color: white;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.bg-image {
+    background-image: url('../images/deli-home.jpg');
+    height: 500px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /* margin-top: 70px; */
+}
+
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 500px;
+    background: #287C51;
+    mix-blend-mode: overlay;
+}
+.bg-image p{
+    color: #fff;
+    font-size: 18px;
+}
+.bg-image h4 {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 2.8rem;
+    color: #FFFFFF;
+    line-height: 1.2;
+    max-width: 290px;
+    z-index: 9999;
+    margin-bottom: 20px;
+}
+
+.bg-image small {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    color: #fdfdfd;
+    z-index: 999999;
+}
+
+.hero-content {
+    padding-top: 185px;
+    padding-left: 0px;
+}
+
+.cart-btn {
+    background: #070707;
+    padding: 8px;
+    border-radius: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 13px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.product-card {
+    background: #FEFEFE;
+    border-radius: 10px;
+    /* padding: 10px 0px; */
+}
+
+.product-card img {
+    border-radius: 10px;
+    max-width: 300px;
+}
+
+.product-info h4 {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    /* line-height: 26px; */
+    color: #000000;
+}
+
+.product-info h5 {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #000000;
+}
+
+.add-to-cart-btn {
+    background: #0fce48;
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    /* identical to box height */
+    color: #FFFFFF;
+    padding: 5px 15px;
+}
+
+.product-content .add-to-cart-btn-modal {
+    background: #0fce48;
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    /* identical to box height */
+    color: #FFFFFF;
+    width: 100%;
+    text-align: center;
+}
+
+.contact-btn {
+    background: #070707;
+    border-radius: 10px;
+    padding: 8px 25px;
+    font-size: 15px;
+    color: #FFFFFF;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.contact-btn:hover {
+    background: #1f1e1e;
+    transition: all .3s;
+}
+
+.add-to-cart-btn:hover {
+    background: #3deb71;
+    transition: all .3s;
+}
+
+.add-to-cart-btn-modal:hover {
+    background: #3deb71;
+    transition: all .3s;
+}
+
+a, img {
+    padding-right: 2px;
+    text-align: center;
+}
+
+.modal-header h5 {
+    font-weight: 900;
+    font-size: 18px;
+    margin: 0px;
+}
+
+.product-content {
+    margin-left: 30px;
+}
+
+.product-content h4 {
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.product-content h5 {
+    font-weight: 900;
+    font-size: 15px;
+}
+
+.product-content button {
+    border-radius: 50px;
+    border: 1px solid #0fce48;
+    color: #0fce48;
+    height: 30px;
+    width: 30px;
+    background-color: #ffffff;
+}
+
+.cart-content button {
+    border-radius: 50px;
+    border: 1px solid #0fce48;
+    color: #0fce48;
+    height: 30px;
+    width: 30px;
+    background-color: #ffffff;
+}
+
+.product-content b {
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.modal-product img {
+    border-radius: 10px;
+    width: 40%;
+    height: 40%;
+}
+
+.about-section {
+    background-color: #D0E95F;
+    border-radius: 20px;
+    padding: 62px 23px;
+}
+
+.about-content h3 {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    color: #000000;
+}
+
+.img-content .hero-1-image {
+    position: relative;
+    top: 40px;
+    left: 0;
+    height: 100px;
+    border-radius: 13px;
+    z-index: 3;
+    width: 100px;
+}
+
+.img-content {
+    position: relative;
+    top: 0;
+    left: -40px;
+}
+
+.img-content .hero-2-image {
+    position: absolute;
+    top: 0px;
+    left: 30px;
+    height: 130px;
+    z-index: 2;
+    border-radius: 13px;
+    width: 130px;
+}
+
+.about-content p {
+    font-style: normal;
+    font-weight: 100;
+    font-size: 14px;
+    color: gray;
+}
+
+.mb-80 {
+    margin-bottom: 3rem;
+}
+
+.d-flex-2 {
+    display: flex !important;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 7%;
+}
+
+.services-content {
+    padding-top: 50px;
+    position: relative;
+}
+
+.services {
+    min-height: 400px;
+    /* padding: 70px; */
+    background-color: #0fce48;
+    color: #fff;
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.services::before {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.7;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url('../images/deli-nutrition.jpg');
+}
+
+.services h3 {
+    text-align: center;
+    font-weight: 900;
+    color: white;
+    font-size: 3rem;
+    padding-top: 20px;
+}
+
+.services p {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    margin-bottom: 2px;
+}
+
+.btn-yellow {
+    position: relative;
+    display: inline-block;
+    width: auto;
+    padding: 10px 35px;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: #070707;
+    color: #fff;
+    border-radius: 10px;
+    letter-spacing: 1.1px;
+    box-shadow: 0px 10px 20px rgba(237, 90, 108, 0.2);
+    transition: all .5s;
+    text-align: center;
+    text-transform: capitalize;
+    border: 0px;
+    cursor: pointer;
+}
+
+.form-body .form-control:focus {
+    outline: none;
+}
+
+.btn-yellow:hover {
+    transform: scale(1.02);
+    box-shadow: 0px 10px 20px #222221;
+}
+
+.btn-center {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.footer-section {
+    background-color: #070707;
+    padding-top: 30px;
+    padding-bottom: 5px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+.footer-content h5 {
+    color: #fff;
+}
+
+.footer-content p {
+    color: #eeeeee;
+}
+
+.facebook {
+    padding: 5px 12px;
+    background-color: #FFFFFF;
+    text-align: center;
+    margin-right: 8px;
+    color: blue;
+    cursor: pointer;
+}
+
+.twitter {
+    padding: 5px 10px;
+    background-color: #FFFFFF;
+    text-align: center;
+    margin-right: 8px;
+    color: rgb(122, 207, 235);
+    cursor: pointer;
+}
+
+.instagram {
+    padding: 5px 11px;
+    background-color: #FFFFFF;
+    text-align: center;
+    color: #fd5949;
+    cursor: pointer;
+}
+
+.facebook:hover {
+    background-color: blue;
+    color: #fff;
+    transform: scale(1.02);
+    transition: all .5s;
+}
+
+.twitter:hover {
+    background-color: rgb(136, 211, 237);
+    color: #fff;
+    transform: scale(1.02);
+    transition: all .5s;
+}
+
+.instagram:hover {
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    color: #fff;
+    transform: scale(1.02);
+    transition: all .5s;
+}
+
+.footer-content-legal h5 {
+    text-align: left;
+    color: #fff;
+}
+
+ul {
+    padding-left: 0;
+}
+
+.color-white {
+    color: rgb(208, 205, 205);
+    margin-bottom: 0;
+    padding: 0;
+    font-size: 13px;
+}
+
+.h-screen {
+    height: 100%;
+}
+
+.border-top {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.cart-page-btn button {
+    border-radius: 50px;
+    border: 1px solid #0fce48;
+    color: #0fce48;
+    height: 30px;
+    width: 30px;
+    background-color: rgba(19, 212, 90, 0.5);
+}
+
+.cart-page-btn b {
+    font-size: 18px;
+    font-weight: 900;
+    color: #0fce48;
+    padding: 0px 10px;
+}
+
+.cart-page-amount h5 {
+    text-align: center;
+}
+
+.remove-btn {
+    color: #D70606;
+    background: rgba(235, 97, 97, 0.73);
+    text-align: center;
+    border-radius: 5px;
+    font-size: 12px;
+}
+
+.total h3 {
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.price h4 {
+    font-size: 17px;
+    color: #444343;
+}
+
+.order-btn {
+    background: #0fce48;
+    border-radius: 10px;
+    padding: 15px 15px;
+    display: block;
+    color: #fff;
+}
+
+.cart-item-circle {
+    background-color: #0fce48;
+    padding: 2px 5px;
+    border-radius: 50%;
+    font-size: 12px;
+}
+
+@media (max-width: 768px) {
+    .container-2 {
+        width: 94%;
+        max-width: 1140px;
+        margin: 0 auto;
+    }
+    .h-screen {
+        height: 100%;
+    }
+    .d-grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .container-3 {
+        width: 100%;
+        max-width: 1140px;
+        margin: 0 auto;
+    }
+    .img-content {
+        position: relative;
+        top: 0;
+        left: -30px;
+    }
+    .cart-page-amount h5 {
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+    .cart-item-circle {
+        background-color: #0fce48;
+        padding: 2px 5px;
+        border-radius: 50%;
+        font-size: 11px;
+    }
+    .sub-sm {
+        font-size: 14px;
+    }
+    .mb-80 {
+        margin-bottom: 1rem;
+    }
+    .mt-50-sm {
+        margin-top: 19px;
+    }
+    .footer-section {
+        border-top-left-radius: 30px;
+        border-top-right-radius: 30px;
+    }
+    .footer-content-legal h5 {
+        text-align: left;
+        color: #fff;
+        font-size: 19px;
+        font-weight: 500;
+    }
+    .footer-content-legal>ul>li>a {
+        text-align: left;
+        color: #eeeeee;
+        font-size: 13px;
+    }
+    .color-white {
+        color: rgb(208, 205, 205);
+        margin-bottom: 0;
+        padding: 0;
+        font-size: 12px;
+    }
+    .cart-btn {
+        background: #070707;
+        padding: 5px;
+        border-radius: 7px;
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+        color: #FFFFFF;
+        text-align: center;
+    }
+    a, img {
+        padding-right: 4px;
+    }
+    .cart-icon {
+        width: 35%;
+    }
+    .bg-image p{
+        font-size: 15px;
+    }
+    .bg-image h4 {
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 2.2rem;
+        color: #FFFFFF;
+        line-height: 1.4;
+        margin-bottom: 7px;
+    }
+    .hero-content {
+        padding-top: 193px;
+        padding-left: 0px;
+    }
+    .bg-image small {
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 15px;
+        color: #ededed;
+    }
+    .contact-btn {
+        background: #070707;
+        border-radius: 10px;
+        padding: 9px 20px;
+        font-size: 14px;
+        color: #FFFFFF;
+        text-align: center;
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: 300;
+    }
+    .about-section {
+        background-color: #D0E95F;;
+        border-radius: 20px;
+        padding-bottom: 60px;
+        padding-top: 30px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .about-content h3 {
+        font-style: normal;
+        font-weight: 900;
+        font-size: 20px;
+        color: #000000;
+    }
+    .about-content p {
+        font-style: normal;
+        font-weight: 100;
+        font-size: 14px;
+        color: gray;
+    }
+    .img-content .hero-1-image {
+        position: relative;
+        top: 40px;
+        left: 0;
+        height: 110px;
+        border-radius: 13px;
+        z-index: 3;
+        width: 110px;
+    }
+    .img-content .hero-2-image {
+        position: absolute;
+        top: 0px;
+        left: 30px;
+        height: 140px;
+        z-index: 2;
+        border-radius: 13px;
+        width: 140px;
+    }
+    .d-flex-2 {
+        display: flex !important;
+        flex-direction: row;
+        margin: 0;
+    }
+    .product-content .add-to-cart-btn-modal {
+        background: #0fce48;
+        border-radius: 5px;
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px;
+        /* identical to box height */
+        color: #FFFFFF;
+        width: 100%;
+        text-align: center;
+        display: block;
+    }
+    .product-content h4 {
+        font-weight: 900;
+        font-size: 18px;
+    }
+    .product-content h5 {
+        font-weight: 500;
+        font-size: 14px;
+    }
+    .product-content {
+        margin-left: 20px;
+    }
+    .services-content {
+        position: relative;
+    }
+    .services h3 {
+        text-align: center;
+        font-weight: 700;
+        color: white;
+        font-size: 2rem;
+        padding-top: 0;
+    }
+    .services p {
+        text-align: center;
+        color: white;
+        font-size: 16px;
+        margin-bottom: 0;
+    }
+    .services::before {
+        content: "";
+        display: block;
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        opacity: 0.7;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-image: url('../images/deli-nutrition.jpg');
+    }
+    .services {
+        min-height: 200px;
+        padding: 40px 5px;
+        background-color: #0fce48;
+        color: #fff;
+        position: relative;
+    }
+    .btn-yellow {
+        position: relative;
+        display: inline-block;
+        width: auto;
+        padding: 9px 15px;
+        font-size: 15px;
+        font-weight: 500;
+        background-color: #070707;
+        color: #fff;
+        border-radius: 10px;
+        letter-spacing: 1.1px;
+        box-shadow: 0px 10px 20px rgba(237, 90, 108, 0.2);
+        transition: all .5s;
+        text-align: center;
+        text-transform: capitalize;
+        border: 0px;
+        cursor: pointer;
+        text-align: center;
+    }
+    .btn-center {
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+    img {
+        max-width: 100%;
+        width: 100px;
+    }
+    .total h3 {
+        font-size: 17px;
+        font-weight: 900;
+    }
+    .price h4 {
+        font-size: 17px;
+        color: #444343;
+    }
+}
+
+@media (min-width: 768px) {
+    .d-flex-2 {
+        flex-direction: row;
+    }
+}
+
+@media(max-width: 500px) {
+    .d-flex-2 {
+        display: flex !important;
+        flex-direction: column;
+        margin: 0;
+    }
+}
+
+@media (max-width:499px) {
+    .img-content {
+        position: relative;
+        top: 0;
+        left: 10px;
+    }
+}
+
