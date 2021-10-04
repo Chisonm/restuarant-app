@@ -8,7 +8,7 @@
                 <small>Fast Food Restaurant</small>
                 <h4>Fresh Deli by  Karithia_foodz</h4>
                 <p>You can now place order on our website. it's easy</p>
-                <a href="tel:+234 904 614 6129" target="_blank" class="btn-yellow">Contact Us</a>
+                <a href="tel:+234 706 583 9914" target="_blank" class="btn-yellow">Contact Us</a>
             </div>
         </div>
     </div>
@@ -35,7 +35,7 @@
         </div>
     </div>
     {{-- product section --}}
-    <section class="mt-5">
+    <section class="mt-5" id="order">
         <div class="container-2">
             <h3 class="mb-3 ml-3 text-bold" style="font-weight: 900;font-size:32px;">Available for Delivery</h3>
             <div class="d-grid">
@@ -68,8 +68,8 @@
             <p>Our delicious blend of fruits are all made from locally grown fruits</p>
             <p>Now you know why our smoothies are extra rich in flavour and nutrient-dense.</p>
             <div class="btn-center">
-                <a href="https://api.whatsapp.com/send?phone=2349046146129&text=Hi,%20I%20would%20like%20to%20order%20a%20meal%20with%20Free%20Delivery%20to%20Lekki%20Phase%201"
-                    target="_blank" class="btn-yellow">Order Now</a>
+                <a href="#order"
+                     class="btn-yellow">Order Now</a>
             </div>
         </div>
         </section>
